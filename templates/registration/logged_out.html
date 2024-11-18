@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="container mt-5 text-center" style="font-family: 'Poppins', sans-serif; color: #333;">
+  <h2 style="font-size: 2rem; font-weight: bold; color: #1a73e8;">Logged Out</h2>
+  
+  <p style="font-size: 1.2rem; font-weight: 500; color: #555;">
+    You have been successfully logged out. 
+    <a href="{% url 'login' %}" style="font-weight: bold; color: #007bff; text-decoration: none;">Login here</a>
+  </p>
+</div>
+{% endblock %}
