@@ -35,10 +35,15 @@
 1. Clone the repository:
    ```bash
    git clone <repository-url>
+   
    cd CarBecho
+   
    pip install -r requirements.txt
+   
    python manage.py migrate
+   
    python manage.py runserver
+   
    http://127.0.0.1:8000/
 
 
